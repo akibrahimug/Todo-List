@@ -1,0 +1,132 @@
+/* GENERAL STYLES */
+body{
+
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(184, 216, 245);
+    margin: 0;
+    padding: 0;
+}
+
+/* CENTERING CONTAINING DIV AND MAX WIDTH */
+.container{
+    max-width: 750px;
+    height: 100vh;
+    margin: auto;
+}
+
+
+.header{
+    background-color: rgb(32, 32, 187);
+    height: 200px;
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    font-weight: 700;
+    color: aliceblue;
+    margin-top:0;
+    padding-top: 25px;
+   
+}
+
+label{
+    visibility: hidden;
+    position:absolute;
+}
+
+.input-field{
+    display: flex;
+}
+
+input{
+    width: 55%;
+    height: 40px;
+    font-size: 20px;
+    outline: none;
+    margin-left: 4%;
+    border: 0;
+
+}
+
+.btn-main{
+    width: 35%;
+    height: 42px;
+    border: 0;
+    background-color:rgb(85, 85, 255);
+    transition: all, 0.5s;
+}
+
+.btn-main:hover{
+    background-color: aqua;
+}
+
+.btn-toggler{
+    width: 100%;
+    height: 40px;
+    margin-top: 26px;
+    font-size: 15px;
+    font-weight: 100;
+    background-color: rgb(85, 85, 255);
+    border:0;
+    color: aliceblue;
+    transition: all, 0.3s;
+}
+
+.btn-toggler:active{
+    border: solid 2px white;
+    background-color: rgb(32, 32, 187);
+    opacity: 1;
+}
+
+.btn-toggler:hover{
+    height: 45px;
+}
+
+li{
+    
+    list-style: none;
+    padding:25px;
+    border-bottom: solid 1px rgb(97, 97, 97);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+ul{
+    margin-top: 40px;
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.list-items{
+    background-color: aliceblue;
+}
+
+.btn-remove{
+    display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  justify-content: center;
+}
+
+.button-remove{
+    margin-top: 30px;
+    margin-bottom: 80px;
+    height: 50px;
+    width: 70%;
+    font-size: 20px;
+    background-color: brown;
+    color: aliceblue;
+    border: 0;
+    transition: all, 0.5s;
+}
+
+.button-remove:hover{
+    background-color: rgb(235, 48, 48);
+    border: solid 2px rgb(168, 13, 13);
+    width: 75%;
+}
+
+   
