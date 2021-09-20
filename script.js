@@ -6,10 +6,14 @@ button.addEventListener('click', () => {
     const input = document.querySelector('input');
     const list = document.querySelector('ul');
 
-    list.insertAdjacentHTML(
-        'afterbegin',
-        `<li>${input.value}</li>`
-    );
+    if(input.value === ''){
+        list.insertAdjacentHTML() = ''
+    }else{
+        list.insertAdjacentHTML(
+            'afterbegin',
+            `<li>${input.value}</li>`
+        );
+    }
     input.value = '';
 });
 // THIS IS THE WIDE BUTTON WITH 'hide list' TEXT AND THIS CODE 
